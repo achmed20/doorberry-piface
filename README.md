@@ -24,7 +24,7 @@ Howto:
 Todo: 
 - Currently just input 1 is used as "doorbell" switch.
 - adding USB video support (capture or webcam)
-- voicemail or similar if noones answers
+- voicemail or similar if noone answers
 
 
 uses following programs:
