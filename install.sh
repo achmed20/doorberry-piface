@@ -1,5 +1,7 @@
 #!/bin/bash
 
+HOME=$(pwd)
+
 #echo "### * Updating OS"
 #sudo apt-get update
 #sudo apt-get upgrade
@@ -76,12 +78,12 @@ cd $HOME
 echo "### * Configuring asterisk"
 sudo /etc/init.d/asterisk stop
 sudo rm /etc/asterisk/*
-sudo cp asterisk/cfg/* /etc/asterisk/
+sudo cp asterisk/* /etc/asterisk/
 sudo chown asterisk.asterisk /etc/asterisk/*.conf
 sudo chmod 640 /etc/asterisk/*.conf
 sudo /etc/init.d/asterisk start
 
-scripts/update-sip-goal.sh
+./update-sip-goal.sh
 
 echo "### * Install doorberry-piface service"
 sudo cp station/doorborry /etc/init.d/
