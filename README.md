@@ -16,8 +16,8 @@ Requirements:
 
 
 Howto:
-1. "git clone https://github.com/achmed20/doorberry-piface"
-2. run "install.sh"
+- "git clone https://github.com/achmed20/doorberry-piface"
+- run "install.sh"
 
 
 Todo: 
