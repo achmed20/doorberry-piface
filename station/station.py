@@ -8,7 +8,7 @@ import time
 
 
 LOG_LEVEL_PJSIP = 3
-SIP_SERVER="192.168.12.107"
+SIP_SERVER="localhost"
 SIP_USER="raspi"
 SIP_PASS="1111"
 SIP_REALM="asterisk"

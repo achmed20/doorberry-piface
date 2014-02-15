@@ -81,7 +81,7 @@ sudo chown asterisk.asterisk /etc/asterisk/*.conf
 sudo chmod 640 /etc/asterisk/*.conf
 sudo /etc/init.d/asterisk start
 
-echo "### * Install door-intercom service"
-sudo cp station/door-intercom /etc/init.d/
-sudo update-rc.d door-intercom start 10 2 3 4 5
-sudo update-rc.d door-intercom stop 10 0 1 6 
+echo "### * Install doorberry-piface service"
+sudo cp station/doorborry /etc/init.d/
+sudo update-rc.d doorberry start 10 2 3 4 5
+sudo update-rc.d doorberry stop 10 0 1 6 
