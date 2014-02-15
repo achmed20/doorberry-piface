@@ -81,6 +81,8 @@ sudo chown asterisk.asterisk /etc/asterisk/*.conf
 sudo chmod 640 /etc/asterisk/*.conf
 sudo /etc/init.d/asterisk start
 
+scripts/update-sip-goal.sh
+
 echo "### * Install doorberry-piface service"
 sudo cp station/doorborry /etc/init.d/
 sudo update-rc.d doorberry start 10 2 3 4 5
