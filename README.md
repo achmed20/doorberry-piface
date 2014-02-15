@@ -16,6 +16,7 @@ Requirements:
 
 
 Howto:
+- setup a blank raspbian and configure its network
 - "git clone https://github.com/achmed20/doorberry-piface"
 - run "install.sh"
 
